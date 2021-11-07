@@ -10,7 +10,7 @@ header .bandeau {
 }
 
 header .bandeau img {
-  height: 300px;
+  max-height: 300px;
 }
 
 header .bandeau h1 {
@@ -22,8 +22,16 @@ header .bandeau h1 {
   display: inline;
 }
 
-header nav {
-  height: 50px;
+header nav .color-me {
+  color: white;
+}
+
+header nav .color-me:hover {
+  color: lightgray;
+}
+
+header nav .navbar-toggler {
+  border-color: lightgrey;
 }
 
 header .ariane {

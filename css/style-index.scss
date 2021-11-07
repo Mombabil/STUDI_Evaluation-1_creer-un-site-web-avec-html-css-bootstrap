@@ -5,12 +5,11 @@
     }
 }
 
-
 header {
     .bandeau {
         height: 300px;
         img {
-            height: 300px;
+            max-height: 300px;
         }
         h1 {
             font-size: 3rem;
@@ -22,7 +21,15 @@ header {
         }
     }
     nav {
-        height: 50px;
+        .color-me {
+            color: white;
+        }
+        .color-me:hover {
+            color: lightgray;
+        }
+        .navbar-toggler {
+            border-color: lightgrey;
+        }
     }
     .ariane {
         height: 60px;
