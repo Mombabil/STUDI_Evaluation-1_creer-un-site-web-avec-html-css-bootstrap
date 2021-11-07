@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Robots" content="all">
+    <meta name="Rating" content="general">
+    <meta name="Distribution" content="global">
+    <meta name="Geography" content="France Saint-Etienne">
+    <meta name="Category" content="sport-automobile">
+    <meta name="author" content="Momba">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="LAPE RACING est une association a but non lucratif qui regroupe un ensemble 
     d'équipage de rallye automobile. Elle organise des évenements comme des repas ou des essais automobile pour préparer
@@ -17,12 +23,16 @@
 </head>
 
 <body style="background : lightgray; font-family: 'DejaVu Sans Mono', monospace;">
+    <!-- CSS type inline, directement dans le fichier html -->
+
+
     <!-- HEADER -->
     <header>
         <!-- BANDEAU BLANC AVEC LOGO ET NOM DU SITE -->
         <div class="container-fluid bandeau">
             <div class="container bandeau">
-                <a href="index.html" class="navbar-brand">
+                <a itemscope itemtype="http://schema.org/Event" href="index.html" class="navbar-brand">
+                    <meta itemprop="name" content="[logo du site] TEAM LAPE RACING">
                     <img src="images/stickers-peugeot-sport-lion.jpg" alt="logo du site">
                     <h1 class="title">TEAM LAPE RACING</h1>
                 </a>
@@ -81,35 +91,36 @@
                 <div class="row">
                     <article class="new-article col-lg-12">
                         <h2>La nouvelle voiture est là !</h2>
-                        <a href="#"><img src="images/nouvelle_205.jpg" alt="nouvelle voiture"></a>
-                        <p>Après de long mois de travaux acharnés suite à une sortie de route en 2019, 
-                            la 205 de l'equipage LAPE RACING revient sous ses 
+                        <a href="nouvelle-voiture.html"><img src="images/nouvelle_205.jpg" alt="nouvelle voiture" class="pic-index"></a>
+                        <p itemscope itemtype="http://schema.org/Event">
+                            Après de long mois de travaux acharnés suite à une sortie de route en 2019, 
+                            la 205 de l'equipage <strong itemprop="name">LAPE RACING</strong> revient sous ses 
                             nouvelles couleurs. Retrouvez toutes les photos des travaux en cliquant sur cette article.
                         </p>
                     </article>
                     <article class="col-lg-6">
-                        <a href="#"><img src="images/baldo.jpg" alt="baldomerien 2018"></a>
+                        <a href="#"><img src="images/baldo.jpg" alt="baldomerien 2018" class="pic-index"></a>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                         </p>
                     </article>
                     <article class="col-lg-6">
-                        <a href="#"><img src="images/velay.jpg" alt="baldomerien 2018"></a>
+                        <a href="#"><img src="images/velay.jpg" alt="baldomerien 2018" class="pic-index"></a>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                         </p>
                     </article>
                     <article class="col-lg-6">
-                        <a href="#"><img src="images/charbonniere.jpg" alt="baldomerien 2018"></a>
+                        <a href="#"><img src="images/charbonniere.jpg" alt="baldomerien 2018" class="pic-index"></a>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                         </p>
                     </article>
                     <article class="col-lg-6">
-                        <a href="#"><img src="images/noix.jpg" alt="baldomerien 2018"></a>
+                        <a href="#"><img src="images/noix.jpg" alt="baldomerien 2018" class="pic-index"></a>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 

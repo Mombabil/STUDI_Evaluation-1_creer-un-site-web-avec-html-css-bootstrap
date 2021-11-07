@@ -82,7 +82,7 @@ article a:hover {
   opacity: 0.9;
 }
 
-article img {
+article .pic-index {
   width: 100%;
   border-radius: 5px;
 }
