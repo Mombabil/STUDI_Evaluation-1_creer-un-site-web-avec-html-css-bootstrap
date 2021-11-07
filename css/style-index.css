@@ -5,6 +5,7 @@
   }
 }
 
+/* HEADER */
 header .bandeau {
   height: 300px;
 }
@@ -22,6 +23,12 @@ header .bandeau h1 {
   display: inline;
 }
 
+@media screen and (max-width: 826px) {
+  header .bandeau .title {
+    display: none;
+  }
+}
+
 header nav .color-me {
   color: white;
 }
@@ -36,6 +43,17 @@ header nav .navbar-toggler {
 
 header .ariane {
   height: 60px;
+}
+
+header .ariane li {
+  line-height: 60px;
+}
+
+/* WRAPPER */
+.wrapper {
+  /* MAIN */
+  /* ASIDE */
+  /* PADDING BOTTOM */
 }
 
 .wrapper article {
@@ -68,6 +86,7 @@ header .ariane {
   border: 1px solid black;
 }
 
+/* FOOTER */
 footer {
   height: 200px;
   border: 1px solid black;
