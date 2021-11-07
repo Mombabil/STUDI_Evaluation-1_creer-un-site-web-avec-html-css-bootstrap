@@ -9,7 +9,17 @@
 header {
     .bandeau {
         height: 300px;
-        border: 1px solid black;
+        img {
+            height: 300px;
+        }
+        h1 {
+            font-size: 3rem;
+            position: relative;
+            left: -150px;
+            top: 50px;
+            color: black;  
+            display: inline;  
+        }
     }
     nav {
         height: 50px;
