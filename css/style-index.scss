@@ -51,13 +51,20 @@ header {
 
 /* WRAPPER */ 
     article {
-        height: 500px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         background-color: white;
         text-align: justify;
         border-bottom: 1px solid lightgray;
+        padding: 10px;
+        h2 {
+            text-align: center;
+            line-height: 80px;
+        }
+        p {
+            padding-top: 15px;
+        }
         a:hover {
             opacity: 0.9;
         }
@@ -68,7 +75,6 @@ header {
     }
     /* ASIDE */
     aside {
-        height: 1560px;
         position: relative;
         top: -60px;
         .social {
@@ -77,6 +83,7 @@ header {
             color: white;
             font-weight: bold;
             line-height: 60px;
+            margin-bottom: 30px;
             .facebook, .instagram {
                 float: right;
                 padding-right: 10px;
