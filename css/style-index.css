@@ -52,15 +52,8 @@ header .ariane li {
 }
 
 /* WRAPPER */
-.wrapper {
-  /* MAIN */
-  /* ASIDE */
-  /* PADDING BOTTOM */
-}
-
-.wrapper article {
+article {
   height: 500px;
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,15 +63,27 @@ header .ariane li {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: white;
+  text-align: justify;
 }
 
-.wrapper aside {
+article a:hover {
+  opacity: 0.9;
+}
+
+article img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* ASIDE */
+aside {
   height: 1560px;
   position: relative;
   top: -60px;
 }
 
-.wrapper aside .social {
+aside .social {
   height: 60px;
   padding-left: 10px;
   color: white;
@@ -86,32 +91,33 @@ header .ariane li {
   line-height: 60px;
 }
 
-.wrapper aside .social .facebook, .wrapper aside .social .instagram {
+aside .social .facebook, aside .social .instagram {
   float: right;
   padding-right: 10px;
 }
 
-.wrapper aside .social .facebook svg:hover, .wrapper aside .social .instagram svg:hover {
+aside .social .facebook svg:hover, aside .social .instagram svg:hover {
   width: 40px;
   height: 40px;
 }
 
-.wrapper aside ul {
+aside ul {
   list-style-type: none;
 }
 
-.wrapper aside ul a {
+aside ul a {
   text-decoration: none;
   color: black;
 }
 
-.wrapper aside ul a:hover {
+aside ul a:hover {
   color: blue;
 }
 
-.wrapper .pb-60 {
+/* PADDING BOTTOM */
+.pb-60 {
   height: 60px;
-  border: 1px solid black;
+  background-color: white;
 }
 
 /* FOOTER */
