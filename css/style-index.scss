@@ -1,0 +1,37 @@
+header {
+    .bandeau {
+        height: 300px;
+        border: 1px solid black;
+    }
+    nav {
+        height: 50px;
+    }
+    .ariane {
+        height: 60px;
+    }
+}
+
+.wrapper {
+    article {
+        height: 500px;
+        border: 1px solid black;
+    }
+    aside {
+        height: 1560px;
+        border: 1px solid black;
+        position: relative;
+        top: -60px;
+        .social {
+            height: 60px;
+        }
+    }
+    .pb-60 {
+        height: 60px;
+        border: 1px solid black;
+    }
+}
+
+footer {
+    height: 200px;
+    border: 1px solid black;
+}
